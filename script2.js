@@ -7,7 +7,7 @@ SC.initialize({
              e.preventDefault();
              sound.start();
            });
-       $('#start').click(function(e) {
+       $('#stop').click(function(e) {
               e.preventDefault();
               sound.stop();
         });
