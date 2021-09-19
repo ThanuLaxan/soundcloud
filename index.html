@@ -1,66 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>sound soundcloud</title>
-    <script src="//connect.soundcloud.com/sdk.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="main.js"></script>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <style>
-        #start  {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        }
+    <body>
+    <div class="container">
+        <h1>Play your music</h1>
+        <img src="onmyway.jpg">
+        <input id="range" class="level" type="range" value="0" min="0">
+        <div class="btn">
+          <button id="prev"><img src="https://img.icons8.com/bubbles/50/000000/skip-to-start.png"/></button>
+          <button id="start"><img id="play_img" src="https://img.icons8.com/bubbles/50/000000/play.png"/></button>
+          <button id="next"><img src="https://img.icons8.com/bubbles/50/000000/fast-forward.png"/></button>
+        </div>
+      </div>
 
-        #stop{
-          background-color: #4CAF50; /* Green */
-          border: none;
-          color: white;
-          padding: 16px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          transition-duration: 0.4s;
-          cursor: pointer;
-        }
 
-        #start {
-  background-color: white;
-  color: black;
-  border: 2px solid #4CAF50;
-}
 
-        #start:hover {
-  background-color: #4CAF50;
-  color: white;
-}
+    
 
-#stop {
-background-color: white;
-color: black;
-border: 2px solid #4CAF50;
-}
+    <script src="script2.js"></script></script>
 
-#stop:hover {
-background-color: #4CAF50;
-color: white;
-}
-        </style>
-  </head>
-  <body>
-     <button id="start" type="button">Start</button>
-     <button id="stop" type="button">stop</button>
-  </body>
+</body>
 </html>
